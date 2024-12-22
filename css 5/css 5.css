@@ -1,0 +1,360 @@
+
+
+
+/* task 1 ////////
+
+
+div{
+  background-color: crimson;
+  animation-name:box ;
+  width: 100px;
+  height: 100px;
+  
+  animation-duration: 4s;
+  
+}
+
+  @keyframes box {
+100%{
+  background-color: blue;
+}
+
+  }
+   */
+
+
+
+   /*     task 2 /////////// 
+
+
+   .container1{
+    
+    background-color: rgb(230, 228, 228);
+    border-radius: 5%;
+    
+    width: 200px;
+    height: 150px;
+    position: absolute;
+  
+
+right: 100px;
+   }
+
+   .container2{
+    background-color: rgb(230, 228, 228);
+    border-radius: 5%;
+    
+    width: 200px;
+    height: 150px;
+    position: absolute;
+  
+
+   }
+
+ .box1{
+position: absolute;
+  align-content: center;
+  text-align: center;
+  color: aliceblue;
+background-color: darkgreen;
+transform: rotate(20deg) ;
+width: 100px;
+height: 100px;
+border-radius: 5%;
+left: 50px;
+top: 30px;
+    
+ }  
+
+ .box2{
+  align-content: center;
+  text-align: center;
+  border-radius: 5%;
+  color: aliceblue;
+  transform: rotate(30deg) ;
+background-color: darkgreen;
+width: 100px;
+position: absolute;
+height: 100px;
+right: 150px;
+top: 30px;
+ } */
+
+ 
+ 
+ 
+ /*   task  3   ////////////////////
+ 
+ 
+ 
+ div{
+  background-color: orange;
+  animation-name: colored-box ;
+  width: 100px;
+  height: 100px;
+  
+  animation-duration: 4s;
+  
+}
+
+  @keyframes colored-box {
+25%{
+  background-color:red;
+}
+50%{
+  background-color:green;
+}
+75%{
+  background-color: yellow;
+}
+100%{
+  background-color: blue;
+}
+
+  } 
+
+
+  */
+
+
+
+
+/*     task 4     ////////////////////
+
+
+
+ .pic{
+  position: absolute;
+  right: 300px;
+ } 
+  
+ */
+
+
+/*           task 5   /////////////
+
+
+ .picture{
+  margin: 100px;
+  background-image: url(./pic2.jpeg);
+  width: 500px;
+ 
+  
+  
+ }
+  img{
+ 
+  
+  transition: 3s ;
+  transform: rotate(-20deg);
+ }
+
+
+  */
+
+
+
+  /*   task 6    ///////////////
+
+
+
+  .image{
+  
+    margin: 50px;
+    width: 600px;
+    background-image: url(.//pic2.jpeg);
+  }
+   
+  
+  img{
+   transition: 2s;
+    transform: rotate(20deg);
+    transform-origin: bottom right ;
+  } 
+    
+  */
+
+
+/*      task 7    ///////////// 
+
+
+  button{
+    color: white;
+   margin: 350px;
+    background-color: blue;
+    
+  }
+   button:hover{ 
+  
+transition: 2s;
+transform: scale(2);
+  } 
+
+
+  */
+
+
+  /*      task 8   ////////////
+  
+  
+  .animation{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation: animation 10s backwards ;
+  }
+  @keyframes animation {
+
+    0%{ background-color: red;
+      translate:0 0 ;
+      
+    }
+    25%{
+      background-color: yellow;
+      translate: 200px 0 ;
+    }
+
+
+    50%{
+      background-color: blue;
+      translate:200px 200px ;
+    
+    }
+    75%{
+      background-color: green;
+      translate:0 200px ;
+    
+    }
+
+    100%{
+      background-color: red;
+      translate:0 0 ;
+
+    }
+
+  }
+
+   
+  */
+
+
+
+
+  /*    task 9 //////////////
+  
+  
+  .main1{
+    
+    height: 1000px;
+background-color: gainsboro;
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+ .main1 .main2 {
+  display: grid;
+    justify-content: center;
+    
+background-color: white;
+width: 400px;
+height: 700px;
+transition: 2s;
+}
+.main1 .main2 .heading{
+ 
+  margin: 2px;
+  padding-top: 30px;
+}
+
+.main1 .main2:hover{
+transform: scale(1.25);
+
+}
+
+.main1 img{
+    width: 15px;
+}
+
+   
+
+.price{
+  background-color: #a7e2ff;
+  width: 400px;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.main1 .p{
+opacity: 50%;
+}
+
+.main1 button{
+padding: 15px;
+margin: 25px;
+width: 200px;
+background-color: white;
+color: blue;
+
+
+}
+.main1 button:hover{
+  transition: 1s;
+    background-color: blue;
+    color: white;
+
+} 
+    
+*/
+
+
+
+/*     task 10     //////////
+
+
+.page{
+  display: flex;
+  justify-content: center;
+  transform: translate(50%,50%);
+  width: 500px;
+
+  
+}
+.page .page1{
+  border: 10px solid black;
+  width: 180px;
+  height: 50px;
+}
+.page .page1 .page2{
+  width: 180px;
+  height: 50px; 
+  animation-name: page;
+   animation-duration: 5s; 
+  animation-fill-mode: forwards;
+  
+}
+@keyframes page{
+  0%{
+     background-color: red;
+     width: 0;
+  }
+  50%{
+      background-color: red;
+  }
+  75%{
+    background-color: green;
+  }
+  100%{
+      background-color: green;
+   
+  }
+}
+.page3{
+  width: 10px;
+  height: 40px;
+  background-color: black;
+  margin-top: 12.5px;
+}
+  
+*/
